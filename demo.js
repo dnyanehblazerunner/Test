@@ -1,1 +1,2 @@
-console.log("demo")
+int a = 5
+console.log(a)
