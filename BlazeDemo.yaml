@@ -23,7 +23,7 @@ scenarios:
           - type: resizeWindow
             param: '1920,884'
           - type: openWindow
-            param: 'https://blazedemo.com/'
+            param: 'https://blazedemo1.com/'
           - type: switchWindow
             param: win_ser_1
           - type: click
