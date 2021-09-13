@@ -14,5 +14,5 @@ steps:
     testname: Drone Demo
     projectid: 961236
     createtest: true
-    inputstartfile: BlazeDemo.jmx
+    inputstartfile: BlazeDemo.yaml
     uploadfilechk: true
