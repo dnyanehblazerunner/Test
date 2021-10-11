@@ -15,5 +15,5 @@ steps:
     projectid: 961236
     createtest: true
     inputstartfile: BlazeDemo.yaml
-    uploadfilechk: true
+    Uploadfilechk: true
 
