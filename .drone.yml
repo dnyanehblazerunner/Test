@@ -5,7 +5,6 @@ name: default
 workspace:
   path: /drone/src
 
-
 steps:
 - name: create-test
   image: dnyaneshwarnagre/blazemeter:test
