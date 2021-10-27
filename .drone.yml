@@ -7,6 +7,7 @@ workspace:
 
 steps:
 - name: create-test
+  pull: always
   image: dnyaneshwarnagre/blazemeter:1.4.2
   environment:   
     apikey: 38e53fd821771b102b5bfddc
@@ -19,5 +20,4 @@ steps:
 #     createtest: false
 #     inputstartfile: BlazeDemo.yaml
 #     uploadfilechk: true
-
 
