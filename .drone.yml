@@ -16,11 +16,13 @@ steps:
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     showtaillog: false
+    uploadfilechk: true
+    inputallfiles: "BlazeDemo.yaml"
+    env_variable: '{"username":"dnyaneshwar","password":"12345"}'
 #     testname: Drone_Demo_4
 #     projectid: 961236
 #     createtest: false
 #     inputstartfile: BlazeDemo.yaml
-#     uploadfilechk: true
 # F 10129962
 # P 10127108
 
