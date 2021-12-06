@@ -13,6 +13,9 @@ execution:
       browserName: chrome
 scenarios:
   RECORD 04-22-21 12.15.42 PM-Selenium:
+    variables:
+      username: dny
+      password: Dnyanesh@123
     generate-flow-markers: true
     headless: false
     timeout: 60s
