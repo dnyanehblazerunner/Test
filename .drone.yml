@@ -29,9 +29,7 @@ steps:
     #inputstartfile: BlazeDemo.yaml
     
     # download artifact
-    continuepipeline: false
-  commands:
-    - ls ./tmp/artifacts
+#     continuepipeline: false
 
 
 
