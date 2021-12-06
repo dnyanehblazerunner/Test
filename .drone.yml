@@ -15,8 +15,8 @@ steps:
     testid: 10132052     # F 10129962 P 10132052
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
-    showtaillog: false
-    uploadfilechk: true
+    showtaillog: "false"
+    uploadfilechk: "true"
     inputallfiles: "BlazeDemo.yaml"
     env_variable: '{"username":"dnyaneshwar","password":"12345"}'
 #     testname: Drone_Demo_4
