@@ -17,7 +17,6 @@ steps:
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
-    
     # update yml file
     uploadfilechk: true
     inputallfiles: BlazeDemo.yaml
@@ -31,8 +30,11 @@ steps:
     
     # download artifact
     continuepipeline: false
-    
-    
+  commands:
+    - ls ./tmp/artifacts
+
+
+
     # F 10129962
     # P 10127108
 
