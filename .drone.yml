@@ -19,7 +19,7 @@ steps:
     
     # update yml file
 #     uploadfilechk: true
-#     inputallfiles: dependencies
+    inputallfiles: dependencies
 #     env_variable: '{"username":"\"imdny\"","password":"\"456123\""}'
     
     # create new test 
