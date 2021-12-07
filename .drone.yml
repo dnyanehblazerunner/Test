@@ -6,7 +6,7 @@ workspace:
   path: /drone/src
 
 steps:
-- name: upload-dependencies
+- name: update-yaml
   pull: always
   image: blazerunner/blazemeter:1.0
   environment:   
@@ -19,7 +19,7 @@ steps:
     
     # update yml file
     uploadfilechk: true
-    inputallfiles: dependencies
+    inputallfiles: BlazeDemo.yaml #dependencies
     env_variable: '{"username":"\"imdny\"","password":"\"456123\""}'
     
     # create new test 
