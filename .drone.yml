@@ -6,7 +6,7 @@ workspace:
   path: /drone/src
 
 steps:
-- name: create-test
+- name: create-test-2
   pull: always
   image: dnyaneshwarnagre/blazemeter:1.4.3
   environment:   
@@ -24,7 +24,7 @@ steps:
     
     # create new test 
     createtest: true
-    testname: TestFromDrone
+    testname: "TestFromDrone 2"
     projectid: 961236
     inputstartfile: BlazeDemo.yaml
     
