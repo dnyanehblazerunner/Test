@@ -6,27 +6,27 @@ workspace:
   path: /drone/src
 
 steps:
-- name: create-test
+- name: run-existing-test
   pull: always
   image: dnyaneshwarnagre/blazemeter:1.4.3
   environment:   
     apikey: 38e53fd821771b102b5bfddc
     apisecret: c9fb4b4be583657d952d3d25103b28590811e7b0f43bf8d7d9107b6345ae752f15a21d50
-    testid: 10317747    # F 10129962 P 10132052
+    testid: 10264306    # F 10129962 P 10132052
     showtaillog: false
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
     # update yml file
-    uploadfilechk: true
-    inputallfiles: BlazeDemo.yaml
-    env_variable: '{"username":"\"dnyaneshwar\"","password":"\"12345\""}'
+#     uploadfilechk: true
+#     inputallfiles: BlazeDemo.yaml
+#     env_variable: '{"username":"\"dnyaneshwar\"","password":"\"12345\""}'
     
     # create new test 
-    #createtest: true
-    #testname: Drone_Demo_4
-    #projectid: 961236
-    #inputstartfile: BlazeDemo.yaml
+#     createtest: true
+#     testname: Drone_Demo_4
+#     projectid: 961236
+#     inputstartfile: BlazeDemo.yaml
     
     # download artifact
 #     continuepipeline: false
