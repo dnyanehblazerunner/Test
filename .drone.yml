@@ -20,7 +20,7 @@ steps:
     # update yml file
     uploadfilechk: true
     inputallfiles: BlazeDemo.yaml #dependencies
-    env_variable: '{"username":"\"imdny\"","password":"\"456123\""}'
+    env_variable: '{"username":"\"dnyaneshim\"","password":"\"0987654321\""}'
     
     # create new test 
 #     createtest: true
