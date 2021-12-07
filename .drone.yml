@@ -31,9 +31,10 @@ steps:
     # download artifact
 #     continuepipeline: false
 
-- name: display dirs
-  image: alpine
-  commands:
-    - ls
-    - ls ./tmp/artifacts
+    # Testing step for artifacts download
+# - name: display dirs
+#   image: alpine
+#   commands:
+#     - ls
+#     - ls ./tmp/artifacts
 
