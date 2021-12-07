@@ -17,25 +17,25 @@ steps:
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
-    # update yml file
+##### Update yml file
 #     uploadfilechk: true
 #     inputallfiles: BlazeDemo.yaml #dependencies
 #     env_variable: '{"username":"\"dnyaneshim\"","password":"\"0987654321\""}'
     
-    # create new test 
+##### Create new test 
 #     createtest: true
 #     testname: "TestFromDrone BlazeRunner"
 #     projectid: 961236
 #     inputstartfile: BlazeDemo.yaml
     
-    # download artifact
-    continuepipeline: false
+##### Download artifact
+#     continuepipeline: false
 
-    # Testing step for artifacts download
-- name: display dirs
-  image: alpine
-  commands:
-    - ls
-    - ls ./tmp/artifacts
+##### Testing step for artifacts download
+# - name: display dirs
+#   image: alpine
+#   commands:
+#     - ls
+#     - ls ./tmp/artifacts
 
 
