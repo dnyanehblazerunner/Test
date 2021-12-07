@@ -6,7 +6,7 @@ workspace:
   path: /drone/src
 
 steps:
-- name: download-artifacts
+- name: run-existing
   pull: always
   image: blazerunner/blazemeter:1.0
   environment:   
