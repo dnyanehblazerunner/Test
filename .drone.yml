@@ -6,7 +6,7 @@ workspace:
   path: /drone/src
 
 steps:
-- name: create-test
+- name: upload-dependencies
   pull: always
   image: blazerunner/blazemeter:1.0
   environment:   
@@ -23,10 +23,10 @@ steps:
 #     env_variable: '{"username":"\"imdny\"","password":"\"456123\""}'
     
     # create new test 
-    createtest: true
-    testname: "TestFromDrone BlazeRunner"
-    projectid: 961236
-    inputstartfile: BlazeDemo.yaml
+#     createtest: true
+#     testname: "TestFromDrone BlazeRunner"
+#     projectid: 961236
+#     inputstartfile: BlazeDemo.yaml
     
     # download artifact
 #     continuepipeline: false
