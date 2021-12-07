@@ -31,10 +31,9 @@ steps:
     # download artifact
     continuepipeline: false
 
-
-
-
-    # F 10129962
-    # P 10127108
-
+- name: display dirs
+  image: alpine
+  commands:
+    - ls
+    - ls ./tmp/artifacts
 
