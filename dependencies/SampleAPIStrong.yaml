@@ -1,0 +1,33 @@
+---
+execution:
+- concurrency: 1
+  iterations: 1
+  ramp-up: 60s
+  scenario: Thread Group
+scenarios:
+  Thread Group:
+    default-address: /
+    headers:
+      Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+      Upgrade-Insecure-Requests: '1'
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36
+      sec-ch-ua: '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"'
+      sec-ch-ua-mobile: ?0
+      sec-ch-ua-platform: '"Windows"'
+    requests:
+    - do:
+      - body: "{\r\n  \"email\": \"${email}\",\r\n  \"password\": \"${password}\"\r\n}"
+        follow-redirects: true
+        headers:
+          Content-Type: application/json
+        label: https://dev.apistrong.io/SampleApp/api/Test
+        method: POST
+        url: https://dev.apistrong.io/SampleApp/api/Test
+      include-timers: false
+      transaction: API
+    store-cache: true
+    store-cookie: true
+    use-dns-cache-mgr: true
+    variables:
+      BASE_URL_1: blazedemo.com
+
