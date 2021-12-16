@@ -18,9 +18,9 @@ steps:
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-     uploadfilechk: true
-     inputallfiles: BlazeDemo.yaml #dependencies
-     env_variable: '{"username":"\"dnyanesh\"","password":"\"123456789\""}'
+    uploadfilechk: true
+    inputallfiles: BlazeDemo.yaml #dependencies
+    env_variable: '{"username":"\"dnyanesh\"","password":"\"123456789\""}'
     
 ##### Create new test 
 #     createtest: true
