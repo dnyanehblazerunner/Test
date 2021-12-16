@@ -12,15 +12,15 @@ steps:
   environment:   
     apikey: 38e53fd821771b102b5bfddc
     apisecret: c9fb4b4be583657d952d3d25103b28590811e7b0f43bf8d7d9107b6345ae752f15a21d50
-    testid: 9535237 #9535204    # F 10129962 P 10132052
+    testid: 10132052 #9535237 #9535204    # F 10129962 P 10132052
     showtaillog: false
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-    #uploadfilechk: true
-    #inputallfiles: BlazeDemo.yaml #dependencies
-    #env_variable: '{"username":"\"dnyanesh\"","password":"\"987456123\""}'
+    uploadfilechk: true
+    inputallfiles: dependencies #BlazeDemo.yaml 
+    env_variable: '{"username":"\"dnyanesh\"","password":"\"987456123\""}'
     
 ##### Create new test 
     #createtest: true
