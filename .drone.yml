@@ -23,10 +23,10 @@ steps:
     #env_variable: '{"username":"\"dnyanesh\"","password":"\"123456789\""}'
     
 ##### Create new test 
-     createtest: true
-     testname: "TestFromDrone BlazeRunner"
-     projectid: 961236
-     inputstartfile: BlazeDemo.yaml
+    createtest: true
+    testname: "TestFromDrone BlazeRunner"
+    projectid: 961236
+    inputstartfile: BlazeDemo.yaml
     
 ##### Download artifact
     continuepipeline: false
