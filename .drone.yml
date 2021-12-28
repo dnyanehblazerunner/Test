@@ -18,7 +18,7 @@ steps:
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-    #uploadfilechk: true
+    uploadfilechk: true
     inputallfiles: dependencies #BlazeDemo.yaml
     #env_variable: '{"username":"\"dnyanesh\"","password":"\"987456123\""}'
     
