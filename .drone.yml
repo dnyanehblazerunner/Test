@@ -32,10 +32,11 @@ steps:
     continuepipeline: true
 
 ##### Testing step for artifacts download
-# - name: display dirs
-#   image: alpine
-#   commands:
-#     - ls
+- name: display dirs
+  image: alpine
+  commands:
+    - ls
+    - pwd
 #     - ls ./tmp/artifacts
 
 
