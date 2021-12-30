@@ -27,7 +27,8 @@ steps:
     createtest: true
     testname: "create-test-example-3"
     projectid: 961236
-    inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
+    inputstartfile: dependencies/SampleAPIStrong.yaml
+#     inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
     
 ##### Download artifact set to false
     continuepipeline: true
