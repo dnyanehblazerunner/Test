@@ -20,13 +20,13 @@ steps:
 ##### Update yml file
 #     uploadfilechk: true
 #     inputallfiles: dependencies #BlazeDemo.yaml
-    env_variable: '{"username":"\"dn\"","password":"\"dn098\""}'
+#     env_variable: '{"username":"\"dn\"","password":"\"dn098\""}'
     
 ##### Create new test 
     createtest: true
     testname: "create-test-example-2"
     projectid: 961236
-    inputstartfile: /drone/src/BlazeDemo.yaml
+    inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
     
 ##### Download artifact set to false
     continuepipeline: true
