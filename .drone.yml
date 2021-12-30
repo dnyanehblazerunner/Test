@@ -26,7 +26,7 @@ steps:
     createtest: true
     testname: "create-test-example1"
     projectid: 961236
-    inputstartfile: BlazeDemo.yaml
+    inputstartfile: /drone/src/BlazeDemo.yaml
     
 ##### Download artifact set to false
     continuepipeline: true
