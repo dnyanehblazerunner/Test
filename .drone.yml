@@ -20,19 +20,19 @@ steps:
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-    uploadfilechk: true
-    inputallfiles: dependencies #BlazeDemo.yaml
-    env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
+    #uploadfilechk: true
+    #inputallfiles: dependencies #BlazeDemo.yaml
+    #env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
     
 ##### Create new test 
     createtest: true
-    testname: "demo-test1"
+    testname: "demo-test5"
     projectid: 961236
     inputstartfile: BlazeDemo.yaml
 #     inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
     
 ##### Download artifact set to false
-    continuepipeline: false
+    #continuepipeline: false
 
 ##### Testing step for artifacts download
 - name: display dirs
