@@ -8,9 +8,9 @@ workspace:
 steps:
 - name: run-existing
   pull: always
-#   image: dnyaneshwarnagre/blazemeter:1.4.5
-  #image: blazerunner/blazemeter:1.0
-  image: dnyaneshwarnagre/blazemeter:1.4.6
+  #image: dnyaneshwarnagre/blazemeter:1.4.5
+  image: blazerunner/blazemeter:1.1
+  #image: dnyaneshwarnagre/blazemeter:1.4.6
   environment:   
     apikey: 38e53fd821771b102b5bfddc
     apisecret: c9fb4b4be583657d952d3d25103b28590811e7b0f43bf8d7d9107b6345ae752f15a21d50
@@ -20,19 +20,19 @@ steps:
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-    uploadfilechk: true
-    inputallfiles: dependencies #BlazeDemo.yaml
-    env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
+    #uploadfilechk: true
+    #inputallfiles: dependencies #BlazeDemo.yaml
+    #env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
     
 ##### Create new test 
     createtest: true
-    testname: "demo-test5"
+    testname: "drone-test1"
     projectid: 961236
     inputstartfile: BlazeDemo.yaml
-#     inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
+    #inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
     
 ##### Download artifact set to false
-    continuepipeline: false
+    #continuepipeline: false
 
 ##### Testing step for artifacts download
 - name: display dirs
