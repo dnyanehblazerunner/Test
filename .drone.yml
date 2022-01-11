@@ -26,13 +26,13 @@ steps:
     
 ##### Create new test 
     createtest: true
-    testname: "drone-test1"
+    testname: "drone-test2"
     projectid: 961236
     inputstartfile: BlazeDemo.yaml
     #inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
     
 ##### Download artifact set to false
-    #continuepipeline: false
+    continuepipeline: false
 
 ##### Testing step for artifacts download
 - name: display dirs
