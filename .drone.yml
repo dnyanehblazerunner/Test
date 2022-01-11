@@ -35,7 +35,7 @@ steps:
     continuepipeline: false
     
 ##### Jmeter Properties
-    jmeterproperties: "test=test123"
+    #jmeterproperties: "test=test123"
 
 ##### Testing step for artifacts download
 - name: display dirs
