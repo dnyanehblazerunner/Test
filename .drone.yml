@@ -44,4 +44,3 @@ steps:
     - ls
     - pwd
     - ls ./tmp/artifacts
-
