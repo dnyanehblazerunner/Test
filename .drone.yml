@@ -26,7 +26,7 @@ steps:
     
 ##### Create new test 
     createtest: true
-    testname: "drone-test11"
+    testname: "drone-test12"
     projectid: 961236
     inputstartfile: BlazeDemo.yaml
     #inputstartfile: /drone/src/dependencies/SampleAPIStrong.yaml
@@ -35,7 +35,7 @@ steps:
     continuepipeline: false
     
 ##### Jmeter Properties
-    jmeterproperties: "test=newtest12"
+    #jmeterproperties: "test=newtest12"
 
 ##### Testing step for artifacts download
 - name: display dirs
