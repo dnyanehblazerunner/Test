@@ -9,19 +9,19 @@ steps:
 - name: run-existing
   pull: always
   #image: dnyaneshwarnagre/blazemeter:1.4.5
-  image: blazerunner/blazemeter:1.2
-  #image: dnyaneshwarnagre/blazemeter:1.4.7
+  #image: blazerunner/blazemeter:1.2
+  image: dnyaneshwarnagre/blazemeter:1.4.8
   environment:   
     apikey: 38e53fd821771b102b5bfddc
     apisecret: c9fb4b4be583657d952d3d25103b28590811e7b0f43bf8d7d9107b6345ae752f15a21d50
-    testid: 10522123 #9535257 #9535237 #10481630 #9535257 #9535204  #9535237 #9535204    # F 10129962 P 10132052
+    testid: 9535257 #9535257 #9535237 #10481630 #9535257 #9535204  #9535237 #9535204    # F 10129962 P 10132052
     showtaillog: false
     #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
-    uploadfilechk: true
-    inputallfiles: dependencies #BlazeDemo.yaml
+    #uploadfilechk: true
+    #inputallfiles: dependencies #BlazeDemo.yaml
     #env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
     
 ##### Create new test 
@@ -36,6 +36,12 @@ steps:
     
 ##### Jmeter Properties
     jmeterproperties: "test=dronetest1,test=dronetest12,test=dronetest1223"
+    
+##### report name
+    reportname: "dronetest1"
+    
+##### note
+    note: "dronetest1"
 
 ##### Testing step for artifacts download
 - name: display dirs
