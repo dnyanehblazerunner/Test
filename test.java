@@ -25,8 +25,8 @@ import java.net.URL;
 
 public class test {
     public static void main(String[] args) throws MalformedURLException {
-        final String API_KEY = "59d4ef8e81c54dafca174edc";
-        final String API_SECRET = "e39c1d08710f741c5b8996530e7dc3f0ebcaed1e440d7596e3f4f71905d3ef1ac1be8358";
+        final String API_KEY = "38e53fd821771b102b5bfddc";
+        final String API_SECRET = "c9fb4b4be583657d952d3d25103b28590811e7b0f43bf8d7d9107b6345ae752f15a21d50";
         final String BASE = "a.blazemeter.com";
         final String curl = String.format("https://%s/api/v4/grid/wd/hub", BASE);
 
