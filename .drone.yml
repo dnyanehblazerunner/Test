@@ -9,11 +9,11 @@ steps:
   pull: always
   image: dnyaneshwarnagre/blazemeter:drone
   environment:   
-    apikey: xxxx
-    apisecret: xxxx
-    testid: 10689937 #9535257 #9535237 #10481630 #9535257 #9535204  #9535237 #9535204    # F 10129962 P 10132052
+    apikey: ''
+    apisecret: ''
+    testid: ''
     showtaillog: false
-    #modeldata: '{"email": "\"test@mail.com\"", "password": "\"123456\""}'
+    #modeldata: '{"email": "\"asd@gmail.com\"", "password": "\"123456\""}'
     #modeldata: '{"url": "\"https://blazedemo.com/\""}'
     
 ##### Update yml file
