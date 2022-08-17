@@ -14,8 +14,8 @@ execution:
 scenarios:
   RECORD 04-22-21 12.15.42 PM-Selenium:
     variables:
-      username: xxxx
-      password: xxxx
+      username: ''
+      password: ''
     generate-flow-markers: true
     headless: false
     timeout: 60s
