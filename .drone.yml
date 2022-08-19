@@ -13,13 +13,13 @@ steps:
     apisecret: ''
     testid: ''
     showtaillog: false
-    #modeldata: '{"email": "\"asd@gmail.com\"", "password": "\"123456\""}'
-    #modeldata: '{"url": "\"https://blazedemo.com/\""}'
+    #modeldata: '{"email": "\"${email}\"", "password": "\"${password}\""}'
+    #modeldata: '{"url": "\"${url}\""}'
     
 ##### Update yml file
     #uploadfilechk: true
     #inputallfiles: dependencies #BlazeDemo.yaml
-    #env_variable: '{"username":"\"dn654\"","password":"\"abczyt\""}'
+    #env_variable: '{"username":"\"${username}\"","password":"\"${password}\""}'
     
 ##### Create new test 
     #createtest: true

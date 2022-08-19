@@ -9,8 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 //class auth {
-//    private final static String API_KEY = "xxxx";
-//    private final static String API_SECRET = "xxxx";
+//    private final static String API_KEY = "";
+//    private final static String API_SECRET = "";
 //    private final static String BASE = "a.blazemeter.com";
 //    private final static String curl = String.format("https://%s/api/v4/grid/wd/hub", BASE);
 //
